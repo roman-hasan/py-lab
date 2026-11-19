@@ -1,37 +1,3 @@
-# ==========================================
-# Job Application Screening System
-# Project Requirements
-# ==========================================
-
-# 1. Candidate Eligibility
-# - Minimum age: 18 years
-# - Education: Bachelor's or Master's
-# - Minimum experience: 1 year
-# - Joining availability is required
-
-# 2. Assessment Requirements
-# - Minimum skills score: 60
-# - Minimum interview score: 60
-# - Candidates failing assessment requirements are placed On Hold
-
-# 3. Hiring Decisions
-# - Rejected: Basic eligibility requirements not met
-# - On Hold: Assessment requirements not met
-# - Selected: All hiring requirements satisfied
-
-# 4. Salary Calculation
-# - 1–2 years experience: 30,000
-# - 3–5 years experience: 40,000
-# - 6+ years experience: 50,000
-# - Performance bonus: 5,000 when both scores are 80 or above
-# - A 5,000 salary deduction applies when relevant experience is absent
-
-# 5. Assessment Report
-# - Display candidate name and hiring status
-# - Explain rejection or hold reasons
-# - Display monthly salary offer
-
-
 candidate_name = input("Candidate Full Name: ").strip().title()
 candidate_age = int(input("Candidate Age: "))
 education_level = input("Education Level (Bachelor's / Master's): ").strip().lower()
